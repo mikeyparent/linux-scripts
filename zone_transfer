@@ -10,9 +10,9 @@
 # $1 is the first argument given after script
 #check if argument was given, if not, print usage
 
-if ( -z "$1" ); then
-  echo "(*) simple ozne transfer script"
-  echo "(*) usage : $0 <domain name> "
+if [ -z "$1" ]; then
+  echo "[*] simple ozne transfer script"
+  echo "[*] usage : $0 <domain name> "
   exit 0
 fi
 
